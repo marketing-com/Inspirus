@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Emailer</name>
+    </assembly>
+    <members>
+        <member name="T:EMailer.Email">
+            <summary>
+            Provides functionality for sending emails.
+            </summary>
+        </member>
+        <member name="M:EMailer.Email.Send(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send an email.
+            returns True if email was successfully sent or false if it wasn't sent
+            </summary>
+            <param name="smtpServerName">The SMTP server name that is used to send the message.</param>
+            <param name="senderName">The sender's email address.</param>
+            <param name="sendTo">Recipients list.</param>
+            <param name="sendCC">CC recipients list.</param>
+            <param name="sendBCC">BCC recipients list.</param>
+            <param name="subject">The subject line.</param>
+            <param name="body">The body of the email.</param>
+            <returns>True if email was successfully sent or false if it wasn't sent.</returns>
+        </member>
+        <member name="M:EMailer.Email.Send(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Send an email.  returns True if email was successfully sent or false if it wasn't sent
+            </summary>
+            <param name="smtpServerName">The SMTP server name that is used to send the message.</param>
+            <param name="senderName">The sender's email address.</param>
+            <param name="sendTo">Recipients list.</param>
+            <param name="sendCC">CC recipients list.</param>
+            <param name="subject">The subject line.</param>
+            <param name="body">The body of the email.</param>
+            <param name="fileAttachmentPath">The path to a single file to include as an attachment.</param>
+            <returns>True if email was successfully sent or false if it wasn't sent.</returns>
+        </member>
+        <member name="M:EMailer.Email.Send(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String[])">
+            <summary>
+            Send an email.  returns True if email was successfully sent or false if it wasn't sent
+            </summary>
+            <param name="smtpServerName">The SMTP server name that is used to send the message.</param>
+            <param name="senderName">The sender's email address.</param>
+            <param name="sendTo">Recipients list.</param>
+            <param name="sendCC">CC recipients list.</param>
+            <param name="subject">The subject line.</param>
+            <param name="body">The body of the email.</param>
+            <param name="fileAttachmentPaths">An array of file attachements.</param>
+            <returns>True if email was successfully sent or false if it wasn't sent.</returns>
+        </member>
+        <member name="M:EMailer.Email.populateCollection(System.String,System.Net.Mail.MailAddressCollection)">
+            <summary>
+            Populates a mail address collection. A list of email addresses (typically semi-colon separated).
+            </summary>
+            <param name="emailAddresses">A list of email addresses (typically semi-colon separated).</param>
+            <param name="destination">The collection to populate.</param>
+        </member>
+    </members>
+</doc>

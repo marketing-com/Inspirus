@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileManipulation</name>
+    </assembly>
+    <members>
+        <member name="M:FileManipulation.FileManip.DownloadFile(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Downloads a file via HTTP. Throws exceptions on failure
+            </summary>
+            <param name="sourceHttpUrl">An HTTP URL.</param>
+            <param name="localFilePath">A file system path for the download file.</param>
+            <param name="replaceFile">If the file already exists, this specifies that the file can be overwritten.</param>
+        </member>
+        <member name="M:FileManipulation.FileManip.UploadFileFtpWebRequest(System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Uploads a file via HTTP
+            Has the option to send as binary
+            </summary>
+            <param name="localFilePath"></param>
+            <param name="ftpAddress"></param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.UploadFileFtpWebRequest(System.String,System.String,System.String,System.String)">
+            <summary>
+            Uploads a file via HTTP. File name from localFilePath is used for Remote File Name.
+            </summary>
+            <param name="localFilePath"></param>
+            <param name="ftpAddress"></param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.UploadFileWebClient(System.String,System.String,System.String,System.String)">
+            <summary>
+            This method sometimes fails with bad command when sending multiple files.
+            Uploads a file using a WebClient.
+            Throws an exception on failure.
+            </summary>
+            <param name="localFilePath"></param>
+            <param name="ftpAddress"></param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+        </member>
+        <member name="M:FileManipulation.FileManip.DeleteFileFtpWebRequest(System.String,System.String,System.String)">
+            <summary>
+            Deletes a file via HTTP
+            </summary>
+            <param name="localFilePath"></param>
+            <param name="ftpAddress"></param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.ArchiveFile(System.String,System.String,System.Boolean)">
+            <summary>
+            Moves the specified file to the archive folder.
+            </summary>
+            <param name="filePath">A file path.</param>
+            <returns>Throws Exception on failure</returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.GetFileListingFtpWebRequest(System.String,System.String,System.String)">
+            <summary>
+            Get the list of files in the folder.
+            </summary>
+            <param name="ftpAddress">Location to read for file list.</param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+            <returns>List of file names</returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.GetFileListingFtpWebRequest(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            This allows sending a specific port if you set UsePassive to false.
+            </summary>
+            <param name="ftpAddress"></param>
+            <param name="ftpUserID"></param>
+            <param name="ftpPassword"></param>
+            <param name="UsePassive"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FileManipulation.FileManip.FileMove(System.String,System.String)">
+            <summary>
+            Moves a file, overwriting the destination
+            If a destination file is sent in that is used else uses name of source file
+            </summary>
+        </member>
+        <member name="M:FileManipulation.FileManip.FileCopy(System.String,System.String,System.Boolean)">
+            <summary>
+            Copies a file
+            If a destination file is sent in, that is used else uses name of source file
+            </summary>
+        </member>
+        <member name="M:FileManipulation.Zipper.Unzip(System.String,System.String)">
+            <summary>
+            throws exception on failure
+            </summary>
+        </member>
+    </members>
+</doc>
