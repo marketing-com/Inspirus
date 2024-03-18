@@ -18,12 +18,10 @@ namespace InspirusApp
 
 			string incomingfilePath = ConfigurationManager.AppSettings["localIncomingPath"];
 			string ArchiveincomingfilePath = ConfigurationManager.AppSettings["localIncomingArchivePath"];
-
 			string [] files= Directory.GetFiles(incomingfilePath);
 			foreach (string file in files)
 			{
 				Dictionary<string, List<string>> groupedData = GroupData(file);
-
 				foreach (var kvp in groupedData)
 				{
 					string customerId = kvp.Key.Split('|')[0];

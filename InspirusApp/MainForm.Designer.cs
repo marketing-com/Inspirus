@@ -56,7 +56,7 @@ namespace InspirusApp
 			// 
 			// button3
 			// 
-			this.button3.Location = new System.Drawing.Point(165, 199);
+			this.button3.Location = new System.Drawing.Point(165, 192);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(391, 34);
 			this.button3.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace InspirusApp
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Name = "MainForm";
-			this.Text = "Form1";
+			this.Text = "Inspirus Main Form";
 			this.ResumeLayout(false);
 
 		}
