@@ -1,0 +1,116 @@
+﻿0|24030556|ATR100001000|20240310055633
+1|ATR100001000|109107|Wilfred|Schmidt|594 CANYONVILLE RIDDLE RD||RIDDLE|OR|97469|PART C EOB_PPO_ENG|24030556109107|ATRIO
+"2|Schmidt, Wilfred N|FEB|2024||02/01/2024|02/29/2024|2115.3|971.31|706.88|250|2115.3|971.31|706.88|250|250|3900|5900|250|||||You do not have a deductible."
+3|UMPQUA VALLEY AMBULANCE INC|202401900012015|In-network
+4|AMB SERVICE ALS EMERGENCY TRANSPORT LEVEL 1 (billing code : A0427 )|01/14/24 - 01/14/24|1500|647.25|389.3|250
+4|GROUND MILEAGE PER STATUTE MILE (billing code : A0425 )|01/14/24 - 01/14/24|615.3|324.06|317.58|0
+5|2115.3|971.31|706.88|250
+6||
+1|ATR100001000|112189|Patricia|Stenseng|5605 CASA WAY||KLAMATH FALLS|OR|97603|PART C EOB_PPO_ENG|24030556112189|ATRIO
+"2|Stenseng, Patricia A|FEB|2024||02/01/2024|02/29/2024|353|84.23|82.54|0|353|84.23|82.54|0|0|4500|6500|0|||||For most covered services, the plan pays its share of the cost only after you have paid your yearly plan deductible. As of 02/29/2024, you have paid $0 toward your $110 yearly plan deductible."
+3|VIRTUAL RADIOLOGIC PROFESSIONALS PL|202402000012708|In-network
+4|CT LOWER EXTREMITY W/O DYE (billing code : 73700 )|01/08/24 - 01/08/24|190|46.47|45.54|0
+4|CT HEAD/BRAIN W/O DYE (billing code : 70450 )|01/08/24 - 01/08/24|163|37.76|37|0
+5|353|84.23|82.54|0
+6||
+1|ATR100001000|120930594|Roger|Ruhl Jr|4693 REDWOOD AVE||GRANTS PASS|OR|97527|PART C EOB_PPO_ENG|24030556120930594|ATRIO
+"2|Ruhl Jr, Roger D|FEB|2024||02/01/2024|02/29/2024|350.22|36.29|22.11|134.73|350.22|36.29|22.11|134.73|0|4950|5950|13.73|||||You do not have a deductible."
+3|INTERPATH LABORATORY INC|202402500028087|Out-of-network
+4|ROUTINE VENIPUNCTURE (billing code : 36415 )|01/18/24 - 01/18/24|17|8.83|8.65|0
+5|17|8.83|8.65|0
+3|INTERPATH LABORATORY INC|202402500028096|Out-of-network
+4|ASSAY OF TACROLIMUS (billing code : 80197 )|01/18/24 - 01/18/24|106.11|13.73|13.46|0
+5|106.11|13.73|13.46|0
+3|INTERPATH LABORATORY INC|202403800063796|Out-of-network
+4|ASSAY OF TACROLIMUS (billing code : 80197 )|02/01/24 - 02/01/24|106.11|13.73|0|13.73
+4|DETECT AGENT NOS DNA QUANT (billing code : 87799 )|02/01/24 - 02/01/24|121|0 - DENIED(Look below for information about your appeal rights)|0|121
+5|227.11|13.73|0|13.73
+6|Denied with Member Liability|
+1|ATR100001000|19531911|Lonnie|Dalmann|4885 South McCarran Boulevard||Reno|NV|89502|PART C EOB_PPO_ENG|2403055619531911|Saint Mary
+"2|Dalmann, Lonnie S|FEB|2024||02/01/2024|02/29/2024|810.68|138.68|135.91|0|810.68|138.68|135.91|0|0|2550|2550|0|||||You do not have a deductible."
+3|SAINT MARYS MEDICAL GROUP NARALA PC|202403000042999|In-network
+4|OFFICE O/P NEW MOD 45 MIN (billing code : 99204 )|01/19/24 - 01/19/24|810.65|138.68|135.91|0
+4|BODY MASS INDEX DOCD (billing code : 3008F )|01/19/24 - 01/19/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|DIAST BP <80 MM HG (billing code : 3078F )|01/19/24 - 01/19/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|SYST BP LT 130 MM HG (billing code : 3074F )|01/19/24 - 01/19/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+5|810.68|138.68|135.91|0
+6|Denied with Member Liability|
+1|ATR100001000|19537063|Edward|Witzke|2904 Edgewater Dr||Eugene|OR|97401|PART C EOB_PPO_ENG|2403055619537063|ATRIO
+"2|Witzke, Edward C|FEB|2024||02/01/2024|02/29/2024|1649.11|821.48|446.59|365.78|1649.11|821.48|446.59|365.78|365.78|3600|3600|365.78|||||You do not have a deductible."
+3|INTERPATH LABORATORY INC|202402500028088|Out-of-network
+4|ROUTINE VENIPUNCTURE (billing code : 36415 )|01/19/24 - 01/19/24|17|8.83|8.65|0
+5|17|8.83|8.65|0
+3|PRAXIS MEDICAL GROUP INC|202403100047693|In-network
+4|PROTHROMBIN TIME (billing code : 85610 )|01/29/24 - 01/29/24|11.55|6.93|6.79|0
+4|OFFICE O/P EST MOD 30 MIN (billing code : 99214 )|01/12/24 - 01/12/24|334.52|138.68|135.91|0
+4|TOBACCO USE ASSESSED (billing code : 1000F )|01/12/24 - 01/12/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|ELIG CLIN ATTSTS DOC M REC OBTD UPD/REV PT MEDS (billing code : G8427 )|01/12/24 - 01/12/24|.01|.01|0|.01
+4|DIAST BP <80 MM HG (billing code : 3078F )|01/12/24 - 01/12/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|SYST BP LT 130 MM HG (billing code : 3074F )|01/12/24 - 01/12/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|OFFICE O/P EST MOD 30 MIN (billing code : 99214 )|01/29/24 - 01/29/24|334.52|138.68|135.91|0
+4|INSJ PICC RS&I 5 YR+ (billing code : 36573 )|01/29/24 - 01/29/24|555.22|405.57|54.46|350
+4|DIAST BP 80-89 MM HG (billing code : 3079F )|01/29/24 - 01/29/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|SYST BP LT 130 MM HG (billing code : 3074F )|01/29/24 - 01/29/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|THER/PROPH/DIAG IV INF INIT (billing code : 96365 )|01/29/24 - 01/29/24|184.95|67.72|53.1|13.54
+4|INJECTION CEFTRIAXONE SODIUM PER 250 MG (billing code : J0696 )|01/29/24 - 01/29/24|8.16|4.9|3.84|.98
+4|INJECTION CEFAZOLIN SODIUM 500 MG (billing code : J0690 )|01/29/24 - 01/29/24|10.4|6.24|4.89|1.25
+4|TX/PRO/DX INJ NEW DRUG ADDON (billing code : 96375 )|01/29/24 - 01/29/24|57.3|0 - DENIED(Look below for information about your appeal rights)|0|0
+5|1496.68|768.73|394.9|365.78
+3|INTERPATH LABORATORY INC|202403300052455|Out-of-network
+4|ROUTINE VENIPUNCTURE (billing code : 36415 )|01/23/24 - 01/23/24|17|8.83|8.65|0
+5|17|8.83|8.65|0
+3|INTERPATH LABORATORY INC|202403700060757|Out-of-network
+4|ALPHA-FETOPROTEIN SERUM (billing code : 82105 )|01/23/24 - 01/23/24|58.72|16.77|16.43|0
+4|ASSAY OF GGT (billing code : 82977 )|01/23/24 - 01/23/24|21.13|7.2|7.06|0
+5|79.85|23.97|23.49|0
+3|INTERPATH LABORATORY INC|202403700060834|Out-of-network
+4|URINE CULTURE/COLONY COUNT (billing code : 87086 )|01/19/24 - 01/19/24|29.68|8.07|7.91|0
+5|29.68|8.07|7.91|0
+3|INTERPATH LABORATORY INC|202403700060847|Out-of-network
+4|MICROSCOPIC EXAM OF URINE (billing code : 81015 )|01/19/24 - 01/19/24|8.9|3.05|2.99|0
+5|8.9|3.05|2.99|0
+6|Denied with Member Liability|
+1|ATR100001000|198331542|Alan|Eberlein|9685 GREENBRIAR DR||KLAMATH FALLS|OR|97603|PART C EOB_PPO_ENG|24030556198331542|ATRIO
+"2|Eberlein, Alan W|FEB|2024||02/01/2024|02/29/2024|64.29|41|21|20|64.29|41|21|20|20|4950|6500|20|||||You do not have a deductible."
+3|JAMES M YEWCHUK|202402300110357|In-network
+4|CHIROPRACT MANJ 3-4 REGIONS (billing code : 98941 )|01/16/24 - 01/16/24|38.36|38.36|18.36|20
+4|MANUAL THERAPY 1/> REGIONS (billing code : 97140 )|01/16/24 - 01/16/24|25.93|2.64|2.64|0
+5|64.29|41|21|20
+6||
+1|ATR100001000|251487003|Charles|Johnson III|160 PENELOPE CT||SUN VALLEY|NV|89433|PART C EOB_PPO_ENG|24030556251487003|Saint Mary
+"2|Johnson III, Charles M|FEB|2024||02/01/2024|02/29/2024|876.31|149.9|146.9|0|876.31|149.9|146.9|0|0|3500|5500|0|||||You do not have a deductible."
+3|SAINT MARYS MEDICAL GROUP NARALA PC|202403000042988|In-network
+4|DIAST BP <80 MM HG (billing code : 3078F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|SYST BP LT 130 MM HG (billing code : 3074F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|HG A1C>EQUAL 8.0%<EQUAL 9.0% (billing code : 3052F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|OFFICE O/P EST HI 40 MIN (billing code : 99215 )|01/18/24 - 01/18/24|876.25|149.9|146.9|0
+4|BODY MASS INDEX DOCD (billing code : 3008F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|FXNL STATUS ASSESSED (billing code : 1170F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|RVW MEDS BY RX/DR IN RCRD (billing code : 1160F )|01/18/24 - 01/18/24|.01|0 - DENIED(Look below for information about your appeal rights)|0|0
+5|876.31|149.9|146.9|0
+6|Denied with Member Liability|
+1|ATR100001000|483439431|Bertina|Keesee|10375 MOUNTAIN DEW CIR||RENO|NV|89523|PART C EOB_PPO_ENG|24030556483439431|Saint Mary
+"2|Keesee, Bertina|FEB|2024||02/01/2024|02/29/2024|55|0|0|0|55|0|0|0|0|2550|2550|0|||||You do not have a deductible."
+3|RICHARD ALLEN KETRING DC|202400800000383|Out-of-network
+4|CHIROPRACT MANJ 3-4 REGIONS (billing code : 98941 )|01/04/24 - 01/04/24|55|0 - DENIED(Look below for information about your appeal rights)|0|0
+5|55|0|0|0
+6|Denied with Member Liability|
+1|ATR100001000|910596545|Aaron|Decker|PO BOX 692||KLAMATH FALLS|OR|97601|PART C EOB_PPO_ENG|24030556910596545|ATRIO
+"2|Decker, Aaron D|FEB|2024||02/01/2024|02/29/2024|190.39|105.23|85.23|20|190.39|105.23|85.23|20|20|4950|6500|20|||||You do not have a deductible."
+3|JAMES M YEWCHUK|202402300110372|In-network
+4|X-RAY EXAM THORACOLMB 2/> VW (billing code : 72080 )|01/17/24 - 01/17/24|33.3|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|X-RAY EXAM L-S SPINE 2/3 VWS (billing code : 72100 )|01/17/24 - 01/17/24|38.46|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|X-RAY EXAM NECK SPINE 2-3 VW (billing code : 72040 )|01/17/24 - 01/17/24|38.14|38.14|38.14|0
+4|E-STIM 1/> AREAS OTH THAN WND CARE PART TX PLAN (billing code : G0283 )|01/17/24 - 01/17/24|11.57|10|10|0
+4|OFFICE O/P NEW SF 15 MIN (billing code : 99202 )|01/17/24 - 01/17/24|68.92|57.09|37.09|20
+5|190.39|105.23|85.23|20
+6|Denied with Member Liability|
+1|ATR100001000|959702876|Robert|Devey|1025 SE ROGUE DRIVE||GRANTS PASS|OR|97526|PART C EOB_PPO_ENG|24030556959702876|ATRIO
+"2|Devey, Robert E|FEB|2024||02/01/2024|02/29/2024|375|123.61|121.14|0|375|123.61|121.14|0|0|4950|5950|0|||||You do not have a deductible."
+3|OPTIMAL HEALTH OF SOUTHERN OREGON|202402600025579|In-network
+4|OFFICE O/P EST MOD 30 MIN (billing code : 99214 )|01/23/24 - 01/23/24|375|123.61|121.14|0
+4|FALL RISK ASSESSMENT DOCD (billing code : 3288F )|01/23/24 - 01/23/24|0|0 - DENIED(Look below for information about your appeal rights)|0|0
+4|PRES/ABSN URINE INCON ASSESS (billing code : 1090F )|01/23/24 - 01/23/24|0|0 - DENIED(Look below for information about your appeal rights)|0|0
+5|375|123.61|121.14|0
+6|Denied with Member Liability|
+99|ATR100001000|10|20240310055633

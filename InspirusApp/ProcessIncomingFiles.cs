@@ -12,13 +12,13 @@ namespace InspirusApp
 	{
 		Logger logger = new Logger();
 
-	
+
 		public void SplitIncomingFile()
 		{
 
 			string incomingfilePath = ConfigurationManager.AppSettings["localIncomingPath"];
 			string ArchiveincomingfilePath = ConfigurationManager.AppSettings["localIncomingArchivePath"];
-			string [] files= Directory.GetFiles(incomingfilePath);
+			string[] files = Directory.GetFiles(incomingfilePath);
 			foreach (string file in files)
 			{
 				Dictionary<string, List<string>> groupedData = GroupData(file);
@@ -36,40 +36,33 @@ namespace InspirusApp
 			}
 		}
 
-			static Dictionary<string, List<string>> GroupData(string filePath)
+		static Dictionary<string, List<string>> GroupData(string filePath)
+		{
+			Dictionary<string, List<string>> groupedData = new Dictionary<string, List<string>>();
+			using (StreamReader reader = new StreamReader(filePath))
 			{
-				Dictionary<string, List<string>> groupedData = new Dictionary<string, List<string>>();
-
-				using (StreamReader reader = new StreamReader(filePath))
-				{
 				string header = reader.ReadLine(); // Read header
-
 				// Skip header if exists
 				//reader.ReadLine();
-
-					while (!reader.EndOfStream)
+				while (!reader.EndOfStream)
+				{
+					string line = reader.ReadLine();
+					string[] values = line.Split(',');
+					string vendorItemId = values[2].Trim();
+					string customerId = values[4].Trim();
+					string data = string.Join(",", values.ToArray());
+					string key = $"{customerId}|{vendorItemId}";
+					if (!groupedData.ContainsKey(key))
 					{
-						string line = reader.ReadLine();
-						string[] values = line.Split(',');
-
-						string vendorItemId = values[2].Trim();
-						string customerId = values[4].Trim();
-						string data = string.Join(",", values.ToArray());
-
-						string key = $"{customerId}|{vendorItemId}";
-
-						if (!groupedData.ContainsKey(key))
-						{
-							groupedData[key] = new List<string>();
-						   groupedData[key].Add(header); // Add header to grouped data
-
+						groupedData[key] = new List<string>();
+						groupedData[key].Add(header); // Add header to grouped data
 					}
 
 					groupedData[key].Add(data);
-					}
 				}
-
-				return groupedData;
 			}
+
+			return groupedData;
 		}
 	}
+}
